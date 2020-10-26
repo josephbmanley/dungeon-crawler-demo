@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/drawKnife3.ogg-412e9d6bc7f9b7b9126ac57c0f687fae.oggstr"
+
+[deps]
+
+source_file="res://sound/kenney_rpgaudio/Audio/drawKnife3.ogg"
+dest_files=[ "res://.import/drawKnife3.ogg-412e9d6bc7f9b7b9126ac57c0f687fae.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

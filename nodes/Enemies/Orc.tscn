@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://art/kenney_microroguelike_1.2/Tiles/Colored/tile_0011.png" type="Texture" id=1]
+[ext_resource path="res://art/ScalingMaterial.tres" type="Material" id=2]
+[ext_resource path="res://scripts/Enemy.cs" type="Script" id=3]
+
+[node name="Orc" type="KinematicBody2D"]
+script = ExtResource( 3 )
+creatureName = "Orc"
+
+[node name="Sprite" type="Sprite" parent="."]
+material = ExtResource( 2 )
+texture = ExtResource( 1 )
+offset = Vector2( 4, 4 )
