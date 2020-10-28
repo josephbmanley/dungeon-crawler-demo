@@ -19,6 +19,10 @@ config/name="godot-csharp-example"
 run/main_scene="res://scenes/GameWorld.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+Game="*res://nodes/Game.tscn"
+
 [input]
 
 move_up={
